@@ -17,7 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Dinesh Mahapatra: "https://www.facebook.com/dineshmahapatra2"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    #- Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
 
 # --- Logo --- #
