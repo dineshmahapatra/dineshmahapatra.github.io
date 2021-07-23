@@ -35,29 +35,28 @@ It can also be centered!
 Here's a code chunk:
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+library(tidyverse)
+
+ggplot(dota = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+
+fliter(mpg, cyl = 8)
+filter(diamond, carat > 3)
 ~~~
 
 And here is the same code with syntax highlighting:
 
 ```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+library(tidyverse)
+
+ggplot(dota = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+
+fliter(mpg, cyl = 8)
+filter(diamond, carat > 3)
 ```
 
-And here is the same code yet again but with line numbers:
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
 
 ## Boxes
 You can add notification, warning and error boxes like this:
