@@ -2,7 +2,7 @@
 layout: post
 title: Digital challenge for civil society
 subtitle: NGOs cannot remain aloof to new technologies
-gh-repo: daattali/beautiful-jekyll
+gh-repo: dineshmahapatra
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
