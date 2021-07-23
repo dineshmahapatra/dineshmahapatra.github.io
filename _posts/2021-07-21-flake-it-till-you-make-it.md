@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What the Pegasus surveillance scandal means for Indian democracy
-subtitle: Pratap Bhanu Mehta writes: It has great implications for our institutions. Government cannot sidestep questions by alleging conspiracy
+subtitle: It has great implications for our institutions. Government cannot sidestep questions by alleging conspiracy
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
