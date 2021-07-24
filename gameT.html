@@ -172,84 +172,8 @@ pre code {
 
 
 <pre class="r"><code>df_battles &lt;- read.csv(&quot;battles.csv&quot;)
-str(df_battles)</code></pre>
-<pre><code>## &#39;data.frame&#39;:    38 obs. of  25 variables:
-##  $ name              : chr  &quot;Battle of the Golden Tooth&quot; &quot;Battle at the Mummer&#39;s Ford&quot; &quot;Battle of Riverrun&quot; &quot;Battle of the Green Fork&quot; ...
-##  $ year              : int  298 298 298 298 298 298 298 299 299 299 ...
-##  $ battle_number     : int  1 2 3 4 5 6 7 8 9 10 ...
-##  $ attacker_king     : chr  &quot;Joffrey/Tommen Baratheon&quot; &quot;Joffrey/Tommen Baratheon&quot; &quot;Joffrey/Tommen Baratheon&quot; &quot;Robb Stark&quot; ...
-##  $ defender_king     : chr  &quot;Robb Stark&quot; &quot;Robb Stark&quot; &quot;Robb Stark&quot; &quot;Joffrey/Tommen Baratheon&quot; ...
-##  $ attacker_1        : chr  &quot;Lannister&quot; &quot;Lannister&quot; &quot;Lannister&quot; &quot;Stark&quot; ...
-##  $ attacker_2        : chr  &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##  $ attacker_3        : chr  &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##  $ attacker_4        : chr  &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##  $ defender_1        : chr  &quot;Tully&quot; &quot;Baratheon&quot; &quot;Tully&quot; &quot;Lannister&quot; ...
-##  $ defender_2        : chr  &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
-##  $ defender_3        : logi  NA NA NA NA NA NA ...
-##  $ defender_4        : logi  NA NA NA NA NA NA ...
-##  $ attacker_outcome  : chr  &quot;win&quot; &quot;win&quot; &quot;win&quot; &quot;loss&quot; ...
-##  $ battle_type       : chr  &quot;pitched battle&quot; &quot;ambush&quot; &quot;pitched battle&quot; &quot;pitched battle&quot; ...
-##  $ major_death       : int  1 1 0 1 1 0 0 0 0 0 ...
-##  $ major_capture     : int  0 0 1 1 1 0 0 0 0 0 ...
-##  $ attacker_size     : int  15000 NA 15000 18000 1875 6000 NA NA 1000 264 ...
-##  $ defender_size     : int  4000 120 10000 20000 6000 12625 NA NA NA NA ...
-##  $ attacker_commander: chr  &quot;Jaime Lannister&quot; &quot;Gregor Clegane&quot; &quot;Jaime Lannister, Andros Brax&quot; &quot;Roose Bolton, Wylis Manderly, Medger Cerwyn, Harrion Karstark, Halys Hornwood&quot; ...
-##  $ defender_commander: chr  &quot;Clement Piper, Vance&quot; &quot;Beric Dondarrion&quot; &quot;Edmure Tully, Tytos Blackwood&quot; &quot;Tywin Lannister, Gregor Clegane, Kevan Lannister, Addam Marbrand&quot; ...
-##  $ summer            : int  1 1 1 1 1 1 1 1 1 1 ...
-##  $ location          : chr  &quot;Golden Tooth&quot; &quot;Mummer&#39;s Ford&quot; &quot;Riverrun&quot; &quot;Green Fork&quot; ...
-##  $ region            : chr  &quot;The Westerlands&quot; &quot;The Riverlands&quot; &quot;The Riverlands&quot; &quot;The Riverlands&quot; ...
-##  $ note              : chr  &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...</code></pre>
-<pre class="r"><code>head(df_battles)</code></pre>
-<pre><code>##                            name year battle_number            attacker_king
-## 1    Battle of the Golden Tooth  298             1 Joffrey/Tommen Baratheon
-## 2   Battle at the Mummer&#39;s Ford  298             2 Joffrey/Tommen Baratheon
-## 3            Battle of Riverrun  298             3 Joffrey/Tommen Baratheon
-## 4      Battle of the Green Fork  298             4               Robb Stark
-## 5 Battle of the Whispering Wood  298             5               Robb Stark
-## 6           Battle of the Camps  298             6               Robb Stark
-##              defender_king attacker_1 attacker_2 attacker_3 attacker_4
-## 1               Robb Stark  Lannister                                 
-## 2               Robb Stark  Lannister                                 
-## 3               Robb Stark  Lannister                                 
-## 4 Joffrey/Tommen Baratheon      Stark                                 
-## 5 Joffrey/Tommen Baratheon      Stark      Tully                      
-## 6 Joffrey/Tommen Baratheon      Stark      Tully                      
-##   defender_1 defender_2 defender_3 defender_4 attacker_outcome    battle_type
-## 1      Tully                    NA         NA              win pitched battle
-## 2  Baratheon                    NA         NA              win         ambush
-## 3      Tully                    NA         NA              win pitched battle
-## 4  Lannister                    NA         NA             loss pitched battle
-## 5  Lannister                    NA         NA              win         ambush
-## 6  Lannister                    NA         NA              win         ambush
-##   major_death major_capture attacker_size defender_size
-## 1           1             0         15000          4000
-## 2           1             0            NA           120
-## 3           0             1         15000         10000
-## 4           1             1         18000         20000
-## 5           1             1          1875          6000
-## 6           0             0          6000         12625
-##                                                              attacker_commander
-## 1                                                               Jaime Lannister
-## 2                                                                Gregor Clegane
-## 3                                                  Jaime Lannister, Andros Brax
-## 4 Roose Bolton, Wylis Manderly, Medger Cerwyn, Harrion Karstark, Halys Hornwood
-## 5                                                     Robb Stark, Brynden Tully
-## 6                                    Robb Stark, Tytos Blackwood, Brynden Tully
-##                                                 defender_commander summer
-## 1                                             Clement Piper, Vance      1
-## 2                                                 Beric Dondarrion      1
-## 3                                    Edmure Tully, Tytos Blackwood      1
-## 4 Tywin Lannister, Gregor Clegane, Kevan Lannister, Addam Marbrand      1
-## 5                                                  Jaime Lannister      1
-## 6                                 Lord Andros Brax, Forley Prester      1
-##          location          region note
-## 1    Golden Tooth The Westerlands     
-## 2   Mummer&#39;s Ford  The Riverlands     
-## 3        Riverrun  The Riverlands     
-## 4      Green Fork  The Riverlands     
-## 5 Whispering Wood  The Riverlands     
-## 6        Riverrun  The Riverlands</code></pre>
-<pre class="r"><code>library(ggplot2)
+
+library(ggplot2)
 
 #Which region had most battles?
 ggplot(aes(x = region), data = df_battles,color = attacker_king)+
