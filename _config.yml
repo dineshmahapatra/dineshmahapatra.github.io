@@ -16,8 +16,8 @@ author: Dinesh
 navbar-links:
   About Me: "aboutme"
   Research:
-    - Projects:
-    - Dinesh Mahapatra: "https://www.facebook.com/dineshmahapatra2"
+    - Projects: "media_projects"
+    - Data and Statistics: 
     #- Learn markdown: "https://www.markdowntutorial.com/"
   Press: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
   Media Projects: "media_projects"
