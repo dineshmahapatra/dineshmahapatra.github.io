@@ -16,7 +16,8 @@ author: Dinesh
 navbar-links:
   About Me: "aboutme"
   Research:
-    - Projects: "gameT"
+    - Projects:
+        - GOT: "gameT"
     - Data and Statistics: 
     #- Learn markdown: "https://www.markdowntutorial.com/"
   Press: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
