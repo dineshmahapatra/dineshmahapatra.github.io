@@ -21,6 +21,7 @@ navbar-links:
     - Media Projects: "media_projects"
   Data and Stats:
     - GOT: "gameT"
+    - Friends: "fr.html"
   Press: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
 
 # --- Logo --- #
