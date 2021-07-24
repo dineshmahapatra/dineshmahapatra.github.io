@@ -17,6 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Research:
     - Projects:
+              - India:
     - Data and Statistics: "gameT"
     #- Learn markdown: "https://www.markdowntutorial.com/"
   Press: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
