@@ -15,7 +15,8 @@ author: Dinesh
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  Research:
+    - Projects:
     - Dinesh Mahapatra: "https://www.facebook.com/dineshmahapatra2"
     #- Learn markdown: "https://www.markdowntutorial.com/"
   Short Stint: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
