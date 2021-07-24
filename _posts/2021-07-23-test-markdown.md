@@ -24,9 +24,9 @@ Here's a useless table:
 | Two | Three | One |
 
 
-How about a yummy crepe?
+How about a yummy biriyani?
 
-![Crepe](https://unsplash.com/photos/4YjqMVPed30)
+![Biriyani](https://vaya.in/recipes/details/ambur-chicken-biriyani-recipe/)
 
 It can also be centered!
 
