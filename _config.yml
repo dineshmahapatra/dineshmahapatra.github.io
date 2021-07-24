@@ -18,7 +18,7 @@ navbar-links:
   Research:
     - Projects:
     - Data and Statistics:
-      - GOT: "gameT"
+        - GOT: "gameT"
     #- Learn markdown: "https://www.markdowntutorial.com/"
   Press: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
   Media Projects: "media_projects"
