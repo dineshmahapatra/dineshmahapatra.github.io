@@ -2,7 +2,7 @@
 layout: post
 title: Is there anything discreet about the Savarnas
 subtitle: One will never know. And that is the discreet factor of the Savarnas.
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/Brahmin.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [India, Academics]
