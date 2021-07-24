@@ -16,7 +16,7 @@ author: Dinesh
 navbar-links:
   About Me: "aboutme"
   Research:
-    - Projects: "car_test"
+    - Projects: "car_test.Rmd"
     - Data and Statistics: 
     #- Learn markdown: "https://www.markdowntutorial.com/"
   Press: "https://indianexpress.com/profile/author/dinesh-mahapatra/"
