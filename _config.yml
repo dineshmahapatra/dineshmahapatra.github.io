@@ -201,7 +201,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title/
 paginate: 10
-
+paginate_path: "/page:num/"
 kramdown:
   input: GFM
 
