@@ -16,7 +16,7 @@ author: Dinesh
 navbar-links:
   About Me: "aboutme"
   Research:
-    - PhD:
+    - PhD: "https://dineshmahapatra.github.io/book/"
     - Projects:
     - Media Projects: "media_projects"
   Data and Stats:
